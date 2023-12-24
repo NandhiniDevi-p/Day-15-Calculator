@@ -1,0 +1,108 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    overflow: none;    
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction:column ;
+    gap: 30px;
+    background: url('https://img.freepik.com/free-vector/sea-background-video-conferencing_52683-43718.jpg?size=626&ext=jpg&ga=GA1.1.1546980028.1702944000&semt=ais');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.calculator{
+    background-color: rgba(18, 189, 189, 0.842);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: -4px 11px 255px 1px rgb(2, 186, 192);
+    display: grid;
+    grid-template-columns: repeat(4,70px);
+    
+  }
+  input{
+    grid-column: span 4;
+    background-color: #ecf0f3;
+    height: 70px;
+    width: 260px;
+    box-shadow:inset 5px 5px 12px #ffffff,
+                5px 5px 12px rgba(0, 0, 0, .16);
+     border: none;
+     border-radius: 50px;
+     color: rgba(70,70,70);
+     font-size: 50px;
+     text-align: end;
+     margin: 40px auto;
+     padding: 20px;
+  }
+  button{
+    height: 48px;
+    width: 48px;
+    border: none;
+    border-radius: 50%;
+    margin: 8px;
+    font-size: 16px;
+    
+    background-color: #ecf0f3;
+    box-shadow:inset 5px 5px 12px #ffffff,
+                5px 5px 12px rgba(0, 0, 0, .16);   
+  }
+  button:hover{
+    background-color: black;
+    color: #ecf0f3;
+    box-shadow:inset 5px 5px 12px rgba(0, 0, 0, .16),
+                5px 5px 12px  #ffffff;
+                
+  }
+  #equal{
+    width: 120px;
+    border-radius: 40px;
+     background-color: #ecf0f3;
+    box-shadow:inset 5px 5px 12px #ffffff,
+                5px 5px 12px rgba(0, 0, 0, .16);  
+  }
+  #equal:hover{
+    background-color: black;
+    color: #ecf0f3;
+    box-shadow:inset 5px 5px 12px rgba(0, 0, 0, .16),
+                5px 5px 12px  #ffffff;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
